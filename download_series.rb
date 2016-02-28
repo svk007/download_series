@@ -20,7 +20,7 @@ series.each do |item|
 		system "start #{url3}"
 	end
 	omit , file_name = link2.split('=')
-	path = "C:/Users/souvik_d/Downloads/#{file_name}.torrent"
+	path = "#{Dir.home}/Downloads/#{file_name}.torrent"
 	puts "Proceed to start download? (y)"
 	flag2 = gets.chomp
 	if (flag2=="y")
